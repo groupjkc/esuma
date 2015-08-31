@@ -1,0 +1,375 @@
+
+body {/* width:100%; */ font-family: sans-serif; margin: 0px;}
+#wrapper {}
+.header_top {/* height: 182px; */}
+.float-left {float: left;}
+#header {background: url(../images/header-top-bg.png) 0 0; /*height: 346px; */ padding-bottom: 6px;}
+.color-grad1 {
+    background: url(../images/grad1.png) 0 0 repeat-x;
+}
+#header .color-grad2 {
+    background: url(../images/grad2.png) 0 0 repeat-x;
+}
+#header .color-grad3 {
+    background: url(../images/grad3.png) 0 0 repeat-x;
+}
+#header .color-grad4 {
+    background: url(../images/grad4.png) 0 0 repeat-x;
+}
+#header .color-grad5 {
+    background: url(../images/grad5.png) 0 0 repeat-x;
+}
+#header .color-grad6 {
+    background: url(../images/grad6.png) 0 0 repeat-x;
+}
+#header .color-grad7 {
+    background: url(../images/grad7.png) 0 0 repeat-x;
+}
+#header .color-grad8 {
+    background: url(../images/grad8.png) 0 0 repeat-x;
+}
+#header .color-grad9 {
+    background: url(../images/grad9.png) 0 0 repeat-x;
+}
+.width10 {width: 10%;}
+.width3 {width: 3%;}
+.width7 {width: 7%;}
+.width32 {width: 32%;}
+.width20 {width:20%;}
+.height10 {height: 13px;}
+
+#header .box-shadow {
+    -moz-box-shadow:    0px 6px 14px 0px #C5C5C5;
+    -webkit-box-shadow: 0px 6px 14px 0px #C5C5C5;
+    box-shadow:         0px 6px 14px 0px #C5C5C5;
+}
+#header .box-shadow-dark {
+                          margin-bottom: 17px;
+}
+#header-wrap{
+	background: url(../images/blurredBar.png) repeat-x center top transparent;
+}
+#logo{
+	margin-left:44px;
+}
+#languages{
+	float: right;
+    font-size: 20px;
+    margin-top: 25px;
+	margin-right:10px;
+}
+#languages ul{
+	list-style:none;
+}
+#languages ul li{
+	display:inline;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	border-right:1px solid #211f20;
+}
+#languages ul li:last-child, #languages ul #last{
+	border:none;
+}
+#languages a{
+	color:#211f20 !important;
+}
+#header-middle{background: url(../images/greenboxesBar.png) no-repeat scroll 333px top transparent;}
+#header .header-middle p.our-mission {
+    margin-left: 44px;
+    margin-right: 44px;
+    font-weight: bold;
+    font-size: 24px;
+color: #6EB43F; line-height: 44px;padding-bottom: 37px;}
+#header .header-middle p.our-mission span.black {color: #4F4C4D;}
+.italic {font-style: italic;}
+
+/*end of header*/
+
+/*start of banner*/
+#inner-banner {/*background: url(../images/inner-back-girl.png) 0 0 repeat-x; */ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; height: 331px; opacity: 0.4;}
+#banner { position: relative; /* width:74%; */  height: 410px; /* margin: 0 auto; */ margin-left: 13%;}
+.clr {clear:both;}
+#banner img {max-width: 1024px; height: 410px;}
+
+.white {color: white;}
+.black {color: black;}
+.bold {font-weight: bold;}
+.width33 {width: 33%;}
+.banner-content-top .inner-content p {text-align: center; }
+.banner-content-top .inner-content p.parents, .banner-content-top .inner-content p.students {background: url(../images/white-separator.png) 100% 0 no-repeat; background-size:  1px 93px;}
+.banner-content-top .inner-content p span.white {font-size: 46px;}
+.banner-content-top .inner-content p span.black {font-size: 31px;}
+/*.banner-content-top .small-text {margin-left: 13%;}*/
+.banner-content-top .small-text p.white {font-size: 24px;
+width: 678px;
+line-height: 22px;}
+.align-right {text-align: right;}
+.width50 {width: 50%;}
+.width37 {width: 37%;}
+.banner-content-top  .small-text img {
+    width: 336px;
+height: 300px;
+margin-top: 61px;
+position: absolute;
+margin-left: -90px;
+
+}
+#tagline{
+	clear: both;
+    font-size: 24px;
+    max-width: 735px;
+    text-align: left;
+}
+
+/*end of the banner*/
+.content {margin-left: 13%;margin-right: 13%;}
+.content .header {font-size: 30px; text-transform: uppercase; color: #750e31; font-weight: bold;}
+.content .sub-header {font-size: 26px; text-transform: uppercase; color: #750e31; margin-top: -25px;}
+pre {height: 2px; background-color: #FAF6F6}
+
+ul.expandables p.question {color:#750e31; font-size: 22px; margin-left: -4.5%; cursor:pointer; position: relative;}
+ul.expandables p.question span.bg-top {width: 45px;
+height: 45px;
+display: inline-block;
+}
+ul.expandables p.question span.main-top {position: absolute;}
+ul.expandables p.child-question {cursor: pointer; font-weight: bold; color: #4F4C4D;font-size: 16px; position: relative;overflow: hidden;}
+ul.expandables li.child4 p.child-question  {height:38px;}
+ul.expandables p.child-question:hover {color: #750e31;}
+
+ul.expandables p.child-question span.main {position: absolute;}
+ul.expandables li {list-style: none;}
+ul.child-expandables pre {margin-top: -6px; margin-bottom: -6px;}
+
+.content .text {font-size: 16px;
+color: #818386;
+margin-right: 40%; line-height: 22px;}
+
+.content .rest-text {font-size: 16px;
+color: #818386; line-height: 22px;
+}
+.content .example {color: #4F4C4D; font-weight: bold; font-size: 15px;}
+.content .child-answer {margin-left: 3.4%;}
+.footer {background-color: #595657; height: 50px;}
+a {text-decoration: none;}
+.more-information .info-header {color: #750e31;
+font-size: 20px;
+cursor: pointer; margin-top: 42px;}
+
+/*.child1 p.child-question span {background: url(../images/open-mini-triangle.png) 0 0 no-repeat;}*/
+p.child-question span.bg {width: 30px;
+height: 30px;
+display: inline-block;}
+
+p.question {margin-bottom: -20px; overflow: hidden;}
+.banner-wrapper {background-color: #6FB43F;}
+.banner-content-top{
+	background: url(../images/girls.png) no-repeat scroll center top #6FB43F;
+	background-size:100% 100%;
+}
+#triangle{
+	float: right;
+    margin-top: -165px;
+    max-width: 352px;
+}
+/* Tablets */
+@media only screen and (max-width : 1024px) {
+.banner-content-top .inner-content p.parents {
+    
+    width: 170px !important;
+}
+
+.banner-content-top .inner-content p.students {
+
+     width: 230px !important;
+}
+.banner-content-top .inner-content p span.white {
+    font-size: 30px;
+}
+	.banner-content-top .inner-content p span.black {
+    font-size: 25px;
+}
+
+#tagline {
+    max-width: 600px;    
+}
+}
+/* Mobile */
+@media only screen and (max-width : 767px) {
+	#header-middle {
+		background: url(../images/greenboxesBar.png) no-repeat scroll 224px top transparent;
+	}
+	.banner-content-top .inner-content p.parents{
+		width: 140px !important;
+	}
+	.inner-content .communities{
+		width: 110px !important;
+	}
+	.banner-content-top .inner-content p.students {
+		width: 140px !important;
+		padding-left: 25px !important;
+		padding-right: 25px;
+	}
+	.banner-content-top .inner-content p span.white {
+		font-size: 20px;
+	}
+	.banner-content-top .inner-content p span.black {
+		font-size: 18px;
+	}	
+	#tagline {	
+		font-size: 14px;
+		max-width: 425px;		
+	}
+	#tagline p{	
+		line-height: 20px !important;
+	}
+	#tagline .align-right {
+		margin-right: 30px;
+	}
+	#triangle {
+		float: right;
+		margin-top: -99px;
+		max-width: 255px;
+	}
+	#triangle img{
+		width: 200px !important;
+		height:207px !important;
+	}
+	.our-mission span{
+		font-size:20px !important;
+	}
+	#header .header-middle p.our-mission{
+		line-height: 30px;
+		padding-bottom: 0;
+	}
+	.header-middle{
+		margin-top: 0 !important;
+	}	
+	.content .header {		
+		font-size: 25px;
+	}
+	.content .sub-header {
+        font-size: 16px;
+	}
+	.content .text{
+		font-size:14px;
+	}
+	ul.expandables p.question{
+		font-size: 18px;
+	}
+	.footer-logo img{
+		width: 70px;
+	}
+	#logo img{
+		width: 180px;
+	}
+	#languages {
+		font-size: 15px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+	.banner-content-top .inner-content p.parents{
+		width: 200px !important;
+	}
+	.inner-content .communities{
+		width: 200px !important;
+	}
+	.banner-content-top .inner-content p.students {
+		width: 200px !important;
+		padding-right: 25px;
+		padding-left: 28px !important;
+	}
+	.banner-content-top .inner-content p span.white {
+		font-size: 30px;
+	}
+	.banner-content-top .inner-content p span.black {
+		font-size: 25px;
+	}	
+	#tagline {	
+		font-size: 20px;			
+	}
+	#triangle {
+		float: right;
+		margin-top: -115px;
+		max-width: 255px;
+	}
+	#triangle img{
+		width: 255px !important;
+		height:264px !important;
+	}
+	.our-mission span{
+		font-size:30px !important;
+	}
+	#header .header-middle p.our-mission{
+		line-height: 35px;
+		padding-bottom: 0;
+	}
+	#tagline .align-right{
+		margin-right: 100px;
+	}
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {	
+	#tagline {
+		max-width: 730px;
+	}
+	#tagline .align-right {
+		margin-right: 70px;    
+	}
+	.banner-content-top .inner-content p.parents {
+		width: 200px !important;
+	}
+	.banner-content-top .inner-content p.students {
+		width: 200px !important;
+		padding-right: 40px;
+		padding-right: 35px !important;
+	}
+}
+
+#triangle img {
+    width: 352px;
+	height: 364px;
+}
+.content-header{
+	margin-top:0 !important;
+}
+/*later modifications fixed width*/
+.banner-content-top .inner-content p.parents {text-align: left;
+width: 250px;}
+.banner-content-top .inner-content p.students {text-align: left;
+width: 253px;
+padding-left: 30px;
+    padding-right: 30px;}
+
+.banner-content-top .inner-content p.communities{text-align: left; padding-left: 30px;
+}
+#header p.our-mission {}
+.banner-content-top .inner-content {padding-top: 45px;padding-bottom:30px;}
+/*end*/
+
+.header-middle {max-width: 1024px; margin: 0 auto;}
+
+#banner,.banner-content-top,.content {max-width: 1024px;
+margin: 0 auto;}
+.banner-content-top .inner-content,.banner-content-top .small-text,.content .content-header,.content .sub-content, .content ul.expandables, .more-information, .footer-logo {margin-left: 44px;}
+.footer-logo{padding-bottom:20px;}
+.child1 p.child-answer,.child2 p.child-answer {margin-top: -18px;}
+
+.opened {background: url(../images/small-triangle.png) 0 0 no-repeat;}
+.closed {background: url(../images/BigRedTriangle.png) 0 0 no-repeat;}
+.opened-mini {background: url(../images/open-mini-triangle.png) 0 0 no-repeat;}
+.closed-mini {background: url(../images/close-mini-triangle.png) 0 0 no-repeat;}
+li.child4 {padding-bottom: 15px;}
+li.list {margin-bottom: 24px;}
+
+#languages a span.green {color: green !important;}
+
+ 
+
+
